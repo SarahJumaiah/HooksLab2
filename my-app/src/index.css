@@ -1,0 +1,12 @@
+/* index.css */
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+img {
+  height: 20vh;
+  margin: 1px auto
+}
