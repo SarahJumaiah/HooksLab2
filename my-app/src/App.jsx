@@ -54,15 +54,15 @@ export default function App() {
   }
 
   return (
-    <div className="flex items-center justify-center h-screen">
-      <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 mx-auto">
+    <div className="flex items-center justify-center h-screen bg-white">
+      <form className="bg-white shadow-lg rounded px-8 pt-6 pb-8 mb-4 mx-auto">
         <h1 className="text-center mb-4 text-xl"> BMI Calculator</h1>
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2">
             Height
           </label>
           <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-white"
             type="text"
             placeholder="Height in cm"
             value={height}
@@ -74,7 +74,7 @@ export default function App() {
             Weight
           </label>
           <input
-            className="shadow appearance-none rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline bg-white"
             type="text"
             placeholder="Weight in kg"
             value={weight}
